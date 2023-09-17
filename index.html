@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario de Contenidos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-4">Calendario de Contenidos</h1>
+    <div class="table-responsive">
+      <table class="table table-bordered" id="calendar">
+        <thead>
+          <tr>
+            <th>Domingo</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+          </tr>
+        </thead>
+        <tbody id="calendar-body">
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button id="prev-button">Anterior</button>
+      <button id="next-button">Siguiente</button>
+      <button id="current-button">Hoy</button>
+      <span id="month-display"></span>
+    </div>
+  </div>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
